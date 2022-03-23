@@ -33,7 +33,7 @@ global current_launchpad
 @bot.message_handler(commands=['start'])
 
 def start_message(message):
-    bot.send_message(message.chat.id,'This is Magic Eden bot for different purposes.')
+    bot.send_message(message.chat.id,'Magic Eden is the leading NFT Marketplace on Solana. Discover the best and latest Solana NFT collections via Telegram.')
     markup=types.ReplyKeyboardMarkup(resize_keyboard=True)
     item1=types.KeyboardButton(sREVIEW_WALLET)
     markup.add(item1)
