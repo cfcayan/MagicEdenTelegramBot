@@ -45,7 +45,7 @@ def start_message(message):
 
 def message_reply(message):
     if message.text==sLAUNCHPAD:
-        url = "https://api-devnet.magiceden.dev/v2/launchpad/collections?offset=4&limit=1"
+        url = "https://api-devnet.magiceden.dev/v2/launchpad/collections?offset=4&limit=5"
         payload={}
         headers = {}
         response = requests.request("GET", url, headers=headers, data=payload)
